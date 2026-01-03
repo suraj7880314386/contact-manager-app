@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Trash2, User, Mail, Phone, MessageSquare, Plus, Search, Users, Copy, Check } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000/api/contacts'; 
+const API_URL = 'https://contact-api-fas0.onrender.com/api/contacts'; 
 
 function App() {
   const [contacts, setContacts] = useState([]);
